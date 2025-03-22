@@ -2,6 +2,9 @@
 
 Ein dynamischer Timer für Küchen oder andere Anwendungen, bei dem du mehrere Timer gleichzeitig verwalten kannst. Mit Funktionen wie dem Starten, Pausieren, Zurücksetzen und Löschen von Timern, einer Sprachausgabe beim Ablauf der Zeit und der Möglichkeit, Alarmtöne zu aktivieren, bietet dieses Projekt eine flexible Lösung zur Zeitmessung.
 
+Hier ist der öffentliche Link dazu:
+https://dave2048it.github.io/Kuechen-Timer/
+
 ## Funktionsweise
 
 - **Mehrere Timer**: Du kannst beliebig viele Timer gleichzeitig hinzufügen und verwalten.
