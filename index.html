@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Küchen-Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Küchen-Timer</h1>
+  <label>
+    <input type="checkbox" id="soundAlertToggle" checked>
+    <span>Ton bei Ablauf der Zeit</span>
+  </label>
+
+  <div id="history">
+    <h3>Info Verlauf</h3>
+    <ul id="historyList"></ul>
+  </div>
+
+  <br><br>
+  <button onclick="addNewTimer()">+ Neuer Timer</button>
+  <div class="timer-container" id="timerContainer"></div>
+
+  <audio id="alarmSound" src="ringtone-193209.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

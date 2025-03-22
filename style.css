@@ -1,0 +1,108 @@
+body { 
+  font-family: Arial, sans-serif; 
+  margin: 20px; 
+  text-align: center; 
+}
+
+.timer { 
+  background: #f8f9fa; 
+  padding: 15px; 
+  border-radius: 10px; 
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1); 
+  width: 200px; 
+}
+
+.timer.blink { 
+  animation: blink 1s linear infinite; 
+}
+
+.timer-container { 
+  display: flex; 
+  flex-wrap: wrap; 
+  gap: 10px; 
+  justify-content: center; 
+}
+
+.time-inputs { 
+  display: inline-flex; 
+  align-items: center; 
+  margin: 5px 0; 
+}
+
+input, button { 
+  margin: 5px; 
+  padding: 8px; 
+  width: 90%; 
+  border: none; 
+  border-radius: 5px; 
+  font-size: 16px; 
+}
+
+input { 
+  text-align: center; 
+  font-weight: bold; 
+  border: 2px solid #007bff; 
+  background: #eef6ff; 
+}
+
+#soundAlertToggle { 
+  width: 2em; 
+  height: 2em; 
+}
+
+label span { 
+  font-size: xx-large; 
+}
+
+p { 
+  font-size: 24px; 
+  font-weight: bold; 
+  margin: 10px 0; 
+}
+
+button { 
+  background: #6517b8; 
+  cursor: pointer; 
+  color: white; 
+  font-weight: bold; 
+}
+
+.start { 
+  background: #28a745; 
+}
+
+.reset { 
+  background: #ffc107; 
+  color: black; 
+}
+
+.pause { 
+  background: #17a2b8; 
+}
+
+.delete { 
+  background: #dc3545; 
+}
+
+#history { 
+  margin-top: 20px; 
+  text-align: left; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+#history ul { 
+  list-style-type: none; 
+  padding-left: 0; 
+}
+
+#history li { 
+  font-size: 16px; 
+  margin-bottom: 5px; 
+}
+
+@keyframes blink {
+  0% { background-color: #ffc107; }
+  50% { background-color: #dc3545; }
+  100% { background-color: #ffc107; }
+}
