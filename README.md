@@ -24,7 +24,7 @@ Ein dynamischer Timer für Küchen oder andere Anwendungen, bei dem du mehrere T
 
 1. Lade die Dateien herunter oder klone das Repository:
     ```bash
-    git clone <URL des Repositories>
+    git clone https://github.com/Dave2048IT/Kuechen-Timer.git
     ```
 
 2. Öffne die `index.html`-Datei in einem Webbrowser deiner Wahl.
